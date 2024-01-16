@@ -1,0 +1,63 @@
+.splash-wrapper {
+  height: 100dvh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hill-svg {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  z-index: -1;
+}
+
+.intro-container {
+  width: 90%;
+  height: 40%;
+  margin-bottom: 100px;
+  border-radius: 3rem;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.about-wrapper {
+  width: 40%;
+  text-align: start;
+}
+
+.about-wrapper h3 {
+  font-size: 2rem;
+  font-weight: 300;
+}
+
+.about-wrapper h2 {
+  font-size: 4rem;
+  font-weight: 600;
+  margin-left: -10px;
+}
+
+.about-wrapper p {
+  font-size: clamp(1.2rem, 1.1vw, 2rem);
+  font-weight: 300;
+}
+
+.job-info-container {
+  width: 300px;
+  height: 400px;
+  border: 1px solid black;
+  border-radius: 1rem;
+}
+
+.recent-projects-wrapper {
+  height: 150dvh;
+  background-color: #eaca99;
+  opacity: 0.5;
+}
+
+@media screen and (max-width: 800px) {
+  .hill-svg {
+    width: 300%;
+  }
+}
